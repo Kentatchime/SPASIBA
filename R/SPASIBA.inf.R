@@ -77,11 +77,11 @@
 #' 
 SPASIBA.inf <-
 function (geno.ref, ploidy, coord.ref, sphere = FALSE, size.pop.ref, 
-    geno.unknown, quant.ref = NULL, quant.unknown = NULL, make.inf = FALSE, 
+    geno.unknown, quant.ref = NULL, quant.unknown = NULL, make.inf = TRUE, 
     loc.infcov = NULL, kappa.geno.plug = NULL, tau.geno.plug = NULL, 
     window = NULL, max.edge.mesh = NULL, offset.mesh = -0.1, 
-    marginal.quant = "none", make.pred = FALSE, nx.pred = 20, 
-    ny.pred = 20, make.assign = FALSE, proj.predref = NULL, freq.predref = NULL, 
+    marginal.quant = "none", make.pred = TRUE, nx.pred = 20, 
+    ny.pred = 20, make.assign = TRUE, proj.predref = NULL, freq.predref = NULL, 
     verbose.inf = TRUE, verbose.pred = TRUE) 
 {
     lonlat3D = function(lon, lat) {
